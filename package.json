@@ -1,0 +1,22 @@
+{
+  "name": "travis-integration",
+  "version": "1.0.0",
+  "description": "travis test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radugroza/travis-integration.git"
+  },
+  "author": "radu",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/radugroza/travis-integration/issues"
+  },
+  "homepage": "https://github.com/radugroza/travis-integration#readme",
+  "devDependencies": {
+    "grunt-phpcs": "^0.4.0"
+  }
+}
