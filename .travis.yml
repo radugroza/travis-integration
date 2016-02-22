@@ -3,9 +3,8 @@ php:
   - '5.2'
 
 before_install:
-  - pear install PHP_CodeSniffer
+  - pear install pear/PHP_CodeSniffer
   - cd $TRAVIS_BUILD_DIR
-  - npm install -g npm
   - npm install grunt
   - npm install -g grunt-cli
   - npm install
